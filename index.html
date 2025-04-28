@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+  <h1>Memory Card Game</h1>
+  <div class="game-board" id="game-board"></div>
+
+  <div id="timer">⏱ Время: 0 сек</div>
+  <div id="attempts">🎯 Попытки: 0</div>
+  <div id="best">🏆 Лучшее время: - | Лучшие попытки: -</div>
+  <div class="game-board" id="game-board"></div>
+
+  <div id="leaderboard">
+    <h2>🏆 Таблица лидеров</h2>
+    <table id="leaderboard-table">
+      <thead>
+        <tr>
+          <th>Игрок</th>
+          <th>Время (сек)</th>
+          <th>Попытки</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Здесь будут записи -->
+      </tbody>
+    </table>
+  </div>
+  
+
+
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
